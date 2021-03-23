@@ -1,14 +1,18 @@
 {
-    "name": "sass",
+    "name": "proyecto",
     "version": "1.0.0",
-    "description": "proyecto impresentable",
+    "description": "Proyecto de entrega final Proyecto",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
         "watch-css": "nodemon -e scss -x \"npm rum build-css\""
     },
-    "author": "LIDA VIVIANA PINEDA",
+    "repository": {
+        "type": "git",
+        "url": "ProyectoCoderHouse"
+    },
+    "author": "Lida Viviana Pineda",
     "license": "ISC",
     "devDependencies": {
         "node-sass": "^5.0.0",
