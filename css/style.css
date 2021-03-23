@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*importando hojas scss en sass*/
+/*colores que maneja la página*/
+/*fondo para el contenido*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap");
+.colorFondoPag {
+  background-image: linear-gradient(180deg, #ffe1aa 0, #ffd4a7 16.67%, #ffc7a2 33.33%, #f2b99d 50%, #e1ac97 66.67%, #d1a092 83.33%, #c2968d 100%); }
+
+/*fondo color menú*/
+.colorOsc {
+  background-color: #8B0000; }
+
+/*color menu*/
+.colorMenu {
+  background-color: #FFB9B9;
+  opacity: 0.5; }
+
+.colorfuentec {
+  color: brown; }
+
+/*tamaño imagen vng logo*/
+.tamLogo {
+  width: 40px;
+  height: 40px; }
+
+.tamFooter {
+  width: 70px;
+  height: 70px; }
+
+.tamFooter1 {
+  width: 130px;
+  height: 130px; }
+
+.tamServicios {
+  width: 400px;
+  height: 400px; }
+
+.tamImagenes {
+  width: 200px;
+  height: 200px; }
+
+/*fuente que se utiliza en la página*/
+.body {
+  font-family: 'Roboto', sans-serif; }
+
+/*definición tamaño footer*/
+.footer {
+  height: 100%;
+  width: 100%;
+  margin-top: 2px;
+  flex-shrink: 0; }
+
+/*textos centrados*/
+.centrado {
+  text-align: center;
+  border: 1px dotted #000;
+  padding: 8px; }
+
+.imagencontacto:hover {
+  filter: blur(5px); }
+
+.imagennuestroe:hover {
+  filter: grayscale(80%); }
+
+.imagentrans:hover {
+  filter: opacity(0.5); }
+
+/*Imagende fondo frase*/
+.imgfondof {
+  background-image: url("../imagenes/Imagenfondo.png"); }
+
+/* Cuadros de servicio
+------------------------- */
+/* Servicio */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
